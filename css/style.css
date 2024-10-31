@@ -1,0 +1,115 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.container {
+  /* background-color: aquamarine; */
+  width: 70%;
+  margin: 0px auto;
+}
+.clr {
+  clear: both;
+}
+.box_one {
+  background-color: #636262;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid yellow;
+}
+.box_2 {
+  border: 3px dashed rgba(74, 74, 75, 0.8);
+  color: rgba(74, 74, 75, 0.8);
+  box-sizing: border-box;
+  padding: 10px;
+}
+.btn {
+  background-color: initial;
+  padding: 10px 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.button1 {
+  background-color: rgba(74, 74, 75, 0.8);
+  color: #fff;
+}
+.button1:active {
+  background-color: #fff;
+  color: rgba(74, 74, 75, 0.8);
+  border: 1px solid rgba(74, 74, 75, 0.8);
+}
+
+.block_one {
+  float: left;
+  width: 30.3%;
+  border: 1px solid rgba(74, 74, 75, 0.8);
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 2px 0px 0px 5px;
+}
+/* main {
+  flex-flow: column;
+  justify-content: center;
+  align-content: space-between;
+} */
+.context {
+  float: left;
+  width: 70%;
+}
+.sidebar {
+  float: left;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+}
+.list_items {
+  color: #555;
+  padding: 1px;
+  list-style: none;
+}
+.list_items li:first-child {
+  background-color: #636262;
+  color: #fff;
+}
+.list_items li:last-child {
+  border: 2px solid #636262;
+  color: #555;
+}
+
+/* ---------- */
+/* toq lariga tasir qiladi */
+
+.list_items li:nth-child(odd) {
+  background-color: rgb(5, 158, 5);
+}
+
+/* juftiga tasir qiladi */
+.list_items li:nth-child(even) {
+  background-color: rgb(116, 151, 116);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* border-collapse: separate; */
+}
+.table_box-row > th {
+  border: 1px solid #333;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+}
+.table_box-row > td {
+  text-align: center;
+  border: 1px solid #555;
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background-color: lightcyan;
+}
